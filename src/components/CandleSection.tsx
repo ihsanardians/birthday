@@ -26,7 +26,7 @@ export default function CandleSection({ onBlown }: { onBlown: () => void }) {
           if (!analyserRef.current) return;
           analyserRef.current.getByteFrequencyData(dataArray);
           const volume = dataArray.reduce((a, b) => a + b) / dataArray.length;
-          if (volume > 45) {
+          if (volume > 30) {
             setIsBlown(true);
           } else {
             animationFrameRef.current = requestAnimationFrame(checkBlow);

@@ -98,7 +98,7 @@ export default function BirthdayPage() {
                 hasStarted={hasStarted}
                 // Volume otomatis menyesuaikan: agak pelan saat tiup lilin agar syahdu,
                 // lalu kembali normal saat baca pesan dan lihat galeri.
-                volume={currentStage === 1 ? 0.1 : 0.6}
+                volume={currentStage === 1 ? 0 : 0.6}
               />
             </div>
           )}
