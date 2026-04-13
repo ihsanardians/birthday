@@ -47,7 +47,7 @@ export default function MessageSection({ onNext }: { onNext: () => void }) {
         <div className="bg-[#fff0f5] p-4 pb-12 rounded-sm shadow-[0_0_40px_rgba(244,143,177,0.15)] border border-pink-200/50 transform hover:rotate-0 hover:scale-105 transition-all duration-500 cursor-pointer">
           <div className="w-48 h-56 md:w-64 md:h-72 bg-gray-300 overflow-hidden rounded-sm relative">
             <img
-              src="/images/polaroid.jpeg"
+              src="/images/polaroid.webp"
               alt="My Love"
               className="w-full h-full object-cover grayscale-[20%] sepia-[10%]"
             />
@@ -99,7 +99,7 @@ export default function MessageSection({ onNext }: { onNext: () => void }) {
               // Tombol Ghost (Transparan) dengan border dan teks Soft Pink
               className="px-6 py-3 bg-pink-400/10 border border-pink-300/50 text-pink-300 font-black uppercase tracking-widest text-sm rounded-full shadow-[0_0_20px_rgba(244,143,177,0.1)] hover:bg-pink-400/20 hover:text-pink-200 transition-all flex items-center gap-2"
             >
-              Lihat Memori Kita <span className="text-lg">→</span>
+              Gallery Of Beauties <span className="text-lg">→</span>
             </motion.button>
           )}
         </div>

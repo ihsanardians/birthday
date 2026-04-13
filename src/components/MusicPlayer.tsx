@@ -70,7 +70,7 @@ export default function MusicPlayer({
         <div className="w-14 h-14 relative rounded-full overflow-hidden shadow-inner bg-black">
           {/* Hanya Piringan Hitam PNG */}
           <img
-            src="/images/piringan-hitam.png"
+            src="/images/piringan-hitam.webp"
             alt="Vinyl"
             className="w-full h-full object-cover animate-spin"
             style={{

@@ -98,7 +98,7 @@ export default function BirthdayPage() {
                 hasStarted={hasStarted}
                 // Volume otomatis menyesuaikan: agak pelan saat tiup lilin agar syahdu,
                 // lalu kembali normal saat baca pesan dan lihat galeri.
-                volume={currentStage === 1 ? 0.3 : 0.6}
+                volume={currentStage === 1 ? 0.1 : 0.6}
               />
             </div>
           )}
@@ -248,10 +248,10 @@ export default function BirthdayPage() {
                 <DomeGallery
                   fit={1}
                   minRadius={600}
-                  maxVerticalRotationDeg={0}
+                  maxVerticalRotationDeg={5}
                   segments={34}
                   dragDampening={2}
-                  grayscale
+                  // grayscale
                   fitBasis="max"
                 />
               </div>
