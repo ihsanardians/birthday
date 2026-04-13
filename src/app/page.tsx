@@ -251,7 +251,7 @@ export default function BirthdayPage() {
                   maxVerticalRotationDeg={5}
                   segments={34}
                   dragDampening={2}
-                  // grayscale
+                  grayscale
                   fitBasis="max"
                 />
               </div>

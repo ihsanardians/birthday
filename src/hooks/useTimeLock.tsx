@@ -6,7 +6,7 @@ export const useTimeLock = () => {
   const [timeLeft, setTimeLeft] = useState("");
 
   // Target: 15 April 2026 jam 00:00
-  const targetDate = new Date("2026-04-14T00:00:00").getTime();
+  const targetDate = new Date("2026-04-15T00:00:00").getTime();
 
   useEffect(() => {
     const updateTimer = () => {
